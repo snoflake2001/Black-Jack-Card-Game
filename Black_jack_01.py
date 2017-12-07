@@ -105,14 +105,15 @@ def print_list(cards):
 #print_list(list_of_cards) 
 
 #random_card = random.choice(list_of_cards)
-random_card = two_of_clubs
-print(random_card)
+def delete_cards():
+    random_card = two_of_clubs
+    print(random_card)
 
-if random_card == two_of_spades:
-    del list_of_cards[random_card]
+    if random_card == two_of_spades:
+        del list_of_cards[random_card]
 
-elif random_card == two_of_clubs:
-    del list_of_cards[random_card]
+    elif random_card == two_of_clubs:
+        del list_of_cards[random_card]
 
 print_list(list_of_cards)
     
